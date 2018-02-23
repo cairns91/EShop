@@ -1,0 +1,237 @@
+h3 {
+    text-align: center;
+    color: black;
+    font-family: verdana;
+    font-size: 140%;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+#t {
+    color: #FFF056;
+}  
+
+span {
+    margin: 0 10px;
+}
+        
+p, label  {
+    text-align: center;
+    color: black;
+    font-family: courier;
+    font-size: 100%; 
+}
+        
+.allproducts{
+    text-align: center;
+    color: black;
+    font-family: courier;
+    font-size: 100%;
+    float: left;
+}
+          
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #DFE2DB;
+}    
+        
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    float: left;
+}
+        
+ul{
+    list-style-type: none;
+    margin-right: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.tab li :hover {
+    background-color: #FFF056;  
+}
+        
+#logo { 
+    float: left; 
+}
+
+#container{
+    position: relative;
+}
+
+#nav {
+    background-color: #ffcbb5;
+    position: absolute;
+    width: 100%;
+    height: 72px;
+    box-shadow: 0px 1px 10px #5E5E5E;
+    top:0px;
+}
+
+body {
+    background-color: #f4e7e1;
+    margin: 0;
+    padding-top: 76px;
+}
+
+.title {
+    display:none;
+    color:#EDEDED;
+    font-family:verdana;
+    font-size:25px;
+    width:100%;
+    font-weight:bold;
+    float:left;
+}
+
+.navigation {
+    list-style-type:none; 
+    float: right;
+}
+
+li { 
+    display:inline;
+    padding:15px;
+}
+
+#nav a {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.3em #464646;
+    font-weight: bold;
+    font-family:century gothic;
+    text-decoration:none;
+    color:#262626;
+    opacity:0.26;
+} 
+#nav a:hover {
+    opacity:0.36;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #ffcbb5;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a{
+    list-style: none;
+    color: black;
+    padding: 12px 4px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+dropdown{
+    float: left;
+    display: inline-block;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.inputForm{
+    margin: 0 auto;
+    width: 500px;
+    box-sizing: border-box;
+    background-color: #edd5c9;
+}
+
+input, textarea, .inputContact{
+    margin: 0 auto;
+    width: 300px;
+    font-family: verdana;
+}
+
+input .inputPrice{
+    width: 150px;
+}
+
+input, .inputLogin{
+    margin: 0 auto;
+    font-family: verdana;
+}
+
+.inputLabel{
+    font-family: verdana;
+}
+
+.inputPrice{
+    font-family: verdana;
+    width: 100px;
+}
+
+textarea{
+    height: 100px;
+    resize: none;
+}
+
+.formContainer{
+    padding-top: 50px;
+}
+
+.formSubmit{
+    width: 100px;
+    height: 25px;
+    position: relative;
+    left: 40%  
+}
+
+.createButtton{
+    width: 150px;
+    height: 25px;
+    position: relative;
+}
+
+.centerDiv{
+    margin: 0 auto;
+    width: 425px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.titleDiv{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+viewButton{
+    width: 100px;
+    height: 25px;
+    position: relative;
+}
+
+.pImage{
+    height: 220px;
+    width: 220px;
+}
+        
+#editButton{
+    width: 40px;
+}
+        
